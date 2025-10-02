@@ -15,13 +15,14 @@
   </head>
   <body>
     <div class="container">
-      <header class="header">
+      <header>
         <!-- NAVIGATION -->
         <nav class="navbar">
           <a href="index.html">
             <img class="logo-md" src="SVG/quill.svg" alt="quill logo"
           /></a>
-          <ul>
+
+          <ul class="nav-btn-container">
             <li>
               <a class="btn btn-primary-outline" href="login.html">Login</a>
             </li>
@@ -43,7 +44,7 @@
             your personal journey
           </p>
 
-          <ul>
+          <ul class="hero-btn-container">
             <li>
               <a class="btn btn-primary" href="register.html">Get started</a>
             </li>
@@ -64,46 +65,49 @@
             journal app
           </h2>
 
-          <div>
-            <h3 class="feature-headings">
-              Write all your journals in a few clicks
-            </h3>
-            <p>
-              Unlock the simplicity of online journlaing - say goodbye to the
-              hassle of pen and paper and hello to effortless journaling with
-              just a few clicks.
-            </p>
+          <div class="features-grid-container">
+            <div>
+              <h3 class="feature-headings">
+                Write all your journals in a few clicks
+              </h3>
+              <p>
+                Unlock the simplicity of online journlaing - say goodbye to the
+                hassle of pen and paper and hello to effortless journaling with
+                just a few clicks.
+              </p>
+            </div>
             <img
               class="feature-img"
               src="images/phone-pictures.png"
               alt="simple online journaling"
             />
-          </div>
 
-          <div>
-            <h3 class="feature-headings">
-              Beautifully display and neatly organised
-            </h3>
-            <p>
-              Not just words on a screen - our journals are beautifully
-              displayed and neatly organised.
-            </p>
+            <div>
+              <h3 class="feature-headings">
+                Beautifully display and neatly organised
+              </h3>
+              <p>
+                Not just words on a screen - our journals are beautifully
+                displayed and neatly organised.
+              </p>
+            </div>
+
             <img
-              class="feature-img"
+              class="feature-img feature-img-swap-order"
               src="images/undraw_testimonials_4c7y.png"
               alt="beautifully display journal"
             />
-          </div>
 
-          <div>
-            <h3 class="feature-headings">
-              Create and reflect from anywhere in the world.
-            </h3>
-            <p>
-              Whether you're at home or exploring the far corners of the world,
-              create and reflect on your experience, thoughts and emotions from
-              anywhere on the globe.
-            </p>
+            <div>
+              <h3 class="feature-headings">
+                Create and reflect from anywhere in the world.
+              </h3>
+              <p>
+                Whether you're at home or exploring the far corners of the
+                world, create and reflect on your experience, thoughts and
+                emotions from anywhere on the globe.
+              </p>
+            </div>
             <img
               class="feature-img"
               src="images/undraw_social-life_xwod.png"
@@ -127,7 +131,7 @@
           <img class="logo-sm" src="SVG/quill.svg" alt="quill logo"
         /></a>
         <!-- Add in social media icons later -->
-        <ul>
+        <ul class="social-icons-container">
           <li>
             <a href="https://www.instagram.com"
               ><img
@@ -169,13 +173,15 @@
             /></a>
           </li>
         </ul>
-        <ul>
+        <ul class="footer-links-contioner">
           <li><a href="index.html">Home</a></li>
           <li><a href="login.html">Login</a></li>
           <li><a href="register.html">Register</a></li>
         </ul>
 
-        <p class="small-text">Made with ❤ in london</p>
+        <p class="small-text">
+          Made with <span class="heart-icon">❤</span> in london
+        </p>
       </footer>
     </div>
   </body>
